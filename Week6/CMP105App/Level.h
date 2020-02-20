@@ -2,6 +2,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "Framework/Input.h"
+#include "Gravity.h"
 #include <string.h>
 #include <iostream>
 
@@ -25,4 +26,8 @@ private:
 	Input* input;
 
 	// More level variables
+
+	//Gravity Ball
+	Gravity ballG;
+	sf::Texture textureG;
 };
